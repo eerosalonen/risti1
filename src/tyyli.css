@@ -1,0 +1,51 @@
+#tausta {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#pohja {
+  width: 600px;
+  background-color: rgb(201, 197, 197);
+  border: 3px black solid;
+  padding: 20px;
+}
+#vuoro {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5%;
+}
+#pelaajan {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 10%;
+  float: left;
+}
+#reset {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  float: right;
+  text-align: center;
+}
+#board {
+  border: 1px black solid;
+  background-color: black;
+  width: 100%;
+}
+
+.voittoväri {
+  background-color: goldenrod;
+}
+
+th {
+  border: 1px black solid;
+  height: 120px;
+  width: 20%;
+  background-color: whitesmoke;
+  font-size: 3vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+th:hover {
+  background-color: rgb(230, 231, 171);
+}
